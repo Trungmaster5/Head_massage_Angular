@@ -8,12 +8,15 @@
   <body ng-controller='AppController as $ctrl'>
     <h2> HEAD_MASSAGE</h2>
     <div layout="row">
-      <md-input-cointainer flex>
+      <md-input-cointainer layout>
         <label>Select time:</label> 
         <input type="text" ng-model="$ctrl.duration">
       </md-input-cointainer>  
-      <md-button flex class="md-button md-raised md-primary" ng-click="$ctrl.vibrate($ctrl.duration)">
+      <md-button layout class="md-button md-raised md-primary" ng-click="$ctrl.vibrate($ctrl.duration)">
         Click me (I'll vibrate for {{$ctrl.duration}} ms)
+      </md-button>
+      <md-button layout class="md-button md-raised md-warn" ng-click="$ctrl.stop()">
+        STOP
       </md-button>
     </div>
   </body>

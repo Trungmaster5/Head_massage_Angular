@@ -12,5 +12,8 @@ angular.module('VibrationApp',['angular-vibrator'])
           console.log('start vibration');
           vibrator.vibrate(duration);
         };
+        $crtl.stop=function(){
+          vibrator.stop();
+        };
       };
 })();
