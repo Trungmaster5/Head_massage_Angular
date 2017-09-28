@@ -1,0 +1,26 @@
+{
+  "name": "head_massage",
+  "version": "1.0.0",
+  "description": "head massage app with Angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trungmaster5/Head_massage_Angular.git"
+  },
+  "keywords": [
+    "head",
+    "massage"
+  ],
+  "author": "Trungmaster5",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Trungmaster5/Head_massage_Angular/issues"
+  },
+  "homepage": "https://github.com/Trungmaster5/Head_massage_Angular#readme",
+  "dependencies": {
+    "angular-vibrator": "^0.2.0"
+  }
+}
